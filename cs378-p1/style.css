@@ -1,0 +1,66 @@
+body {
+  padding-top: 10px;
+}
+
+button {
+  background-color: rgb(159, 218, 255);
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+img {
+display: block;
+max-width: 70%;
+}
+
+.logo {
+margin-left: auto;
+margin-right: auto;
+}
+
+.menu-item-img {
+margin-right: auto;
+height: 90%;
+width: 90%;
+}
+
+.menu-item {
+margin-bottom: 25px;
+margin-right: 0 auto;
+}
+
+.text-and-price {
+margin-bottom: 25px;
+margin-right: 0 auto;
+font-size: larger;
+}
+
+.heading-text {
+text-align: center;
+font-size: larger;
+padding: auto;
+}
+
+.heading {
+color: #e67b1d;
+text-align: center;
+font-size: larger;
+}
+
+.subheading {
+font-style: italic;
+text-align: center;
+font-size: larger;
+}
+
+.container {
+max-width: 80%;
+padding: 0 15px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+
+
+
