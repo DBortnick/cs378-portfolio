@@ -1,0 +1,45 @@
+body {
+    padding-top: 10px;
+  }
+
+.btn-order {
+    background-color: rgb(159, 218, 255);
+    border-radius: 10px;
+    text-align:center;
+  }
+
+.bg-primary {
+  background-color: white;
+
+}
+
+.subheading {
+  color: rgb(226, 125, 2);
+  text-align: center;
+  font-size: larger;
+}
+
+.italics {
+  color: black;
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+}
+
+.row{
+  text-align: center;
+  color: black;
+}
+
+.col-xs-6 {
+  text-align: center;
+  font-size: large;
+  height:50%;
+  width:50%;
+}
+
+.col-xs-3 {
+  text-align: center;
+  padding: 10px;
+}
+
