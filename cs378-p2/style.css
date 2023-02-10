@@ -1,0 +1,82 @@
+body {
+  padding-top: 10px;
+}
+
+button {
+  color: black;
+  border-radius: 80px;
+
+}
+
+.item-button {
+  background-color: white;
+  text-align: right;
+}
+
+.order-button {
+  background-color: lightskyblue;
+}
+
+.clear-button {
+  background-color: lightgray;
+}
+
+img {
+display: block;
+max-width: 70%;
+}
+
+.logo {
+margin-left: auto;
+margin-right: auto;
+}
+
+.menu-item-img {
+margin-right: auto;
+height: 90%;
+width: 90%;
+}
+
+.menu-item {
+margin-bottom: 25px;
+margin-right: 0 auto;
+}
+
+.text-and-price {
+margin-bottom: 25px;
+margin-right: 0 auto;
+font-size: larger;
+}
+
+.menu-price {
+  text-align: center;
+}
+
+.heading-text {
+text-align: center;
+font-size: larger;
+padding: auto;
+}
+
+.heading {
+color: darkorange;
+text-align: center;
+font-size: larger;
+}
+
+.subheading {
+font-style: italic;
+text-align: center;
+font-size: larger;
+}
+
+.container {
+max-width: 80%;
+padding: 0 15px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+
+
+

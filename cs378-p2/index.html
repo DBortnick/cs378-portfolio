@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="script.js"></script><
+  <body>
+    <header class="container logo">
+        <img src="Images/index.png" alt="logo" class="logo">
+        <div class="row-cols-sm-1 heading">Delicious, From-Scratch Recipes Close at Hand</div>
+        <div class="row-cols-sm-1 subheading">The fresh choice of UT!</div>
+    </header>
+
+    <div class="container menu-items">
+      <div class="row menu-item">
+        <div class="col-6">
+          <img src="Images/mac and cheese.png" alt="mac-and-cheese" class="menu-item-img">
+        </div>
+        <div class="col-6">
+          <div class="row text-and-price">
+            <div class="col-10 menu-text">mac & cheese</div>
+            <div class="col-2 menu-price">$5</div>
+          </div>
+          <div class="row button">
+            <div class="col-10 spacing"></div>
+            <div class="col-2 button">
+              <button id="counter" class="item-button" onclick="increment('-', '1', '5')">-</button>
+              <span id="display-1">0</span>
+              <button id="counter" class="item-button" onclick="increment('+', '1', '5')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-6">
+          <img src="Images/pasta.png" alt="pasta" class="menu-item-img">
+        </div>
+        <div class="col-6">
+          <div class="row text-and-price">
+            <div class="col-10 menu-text">pasta</div>
+            <div class="col-2 menu-price">$8</div>
+          </div>
+          <div class="row button">
+            <div class="col-10 spacing"></div>
+            <div class="col-2 button">
+              <button id="counter"  class="item-button" onclick="increment('-', '2', '8')">-</button>
+              <span id="display-2" >0</span>
+              <button id="counter" class="item-button" onclick="increment('+', '2', '8')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-6">
+          <img src="Images/tacos.png" alt="tacos" class="menu-item-img">
+        </div>
+        <div class="col-6">
+          <div class="row text-and-price">
+            <div class="col-10 menu-text">tacos</div>
+            <div class="col-2 menu-price">$8</div>
+          </div>
+          <div class="row button">
+            <div class="col-10 spacing"></div>
+            <div class="col-2 button">
+              <button id="counter" class="item-button" onclick="increment('-', '3', '8')">-</button>
+              <span id="display-3">0</span>
+              <button id="counter" class="item-button" onclick="increment('+', '3', '8')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row menu-item">
+        <div class="col-6">
+          <img src="Images/enchiladas.png" alt="enchiladas" class="menu-item-img">
+        </div>
+        <div class="col-6">
+          <div class="row text-and-price">
+            <div class="col-10 menu-text">enchilada</div>
+            <div class="col-2 menu-price">$10</div>
+          </div>
+          <div class="row button">
+            <div class="col-10 spacing"></div>
+            <div class="col-2 button">
+              <button id="counter" class="item-button" onclick="increment('-', '4', '10')">-</button>
+              <span id="display-4">0</span>
+              <button id="counter" class="item-button" onclick="increment('+', '4', '10')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row subtotal information">
+          <div class="col-6">Subtotal $<span id="subtotal">0</span></div>
+          <div class="col-3">
+            <button id="order" class="order-button" onclick="order()">Order</button>
+            <button id="clear" class="clear-button" onclick="clearAll()">Clear All</button>
+          </div>
+          <div class="col-3">
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
